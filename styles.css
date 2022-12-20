@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+    --main-color: #fff6f6;
+    --second-color:  #f4aaaa;
+    --third-color: #fffdfd;
+    --font-color: #CE9898;
+    --second-font-color: #423A3A;
+    --font-family:  'Josefin Sans', serif;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--font-color);
+    background-color: var(--main-color);
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 375px;
+    overflow-x: hidden;
+}
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/* type */
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 10.83px;
+    color: var(--second-font-color);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 span {
+    color: var(--font-color);
+    font-weight: 300;
+}
+
+p {
+    line-height: 22px;
+}
+
+/* header */
+
+header {
+    background-color: var(--third-color);
+}
+header img {
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+/* main image */
+
+.main-image {
+    height: 250px;
+    width: 376px;
+    background: url(/images/hero-mobile.jpg) no-repeat;
+    margin-bottom: 64px;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 14px;
+    width: 311px;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 32px;
+}
+form {
+    align-self: center;
+    margin-bottom: 92px;
+}
+
+input {
+    width: 311px;
+    border-radius: 28px;
+    border: 1px solid var(--font-color);
+    margin-left: 64px;
+    background: var(--main-color);
+}
+
+input::placeholder {
+    text-indent: 24px;
+    color: var(--font-color);
+}
+
+.btn {
+    position: relative;
+    right: 65px;
+    background: var(--second-color);
+    width: 64px;
+    height: 48px;
+    border-radius: 28px;
+    border: none;
+    box-shadow: 0px 15px 20px 0px #C66E6E3F;
+    
+}
+
+
