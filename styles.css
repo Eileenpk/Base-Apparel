@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 :root {
     font-size: 16px;
     --main-color: #fff6f6;
@@ -58,10 +62,10 @@ p {
 
 /* header */
 
-header {
+.header {
     background-color: var(--third-color);
 }
-header img {
+.header img {
     margin-left: 32px;
     margin-top: 32px;
     margin-bottom: 32px;
@@ -117,4 +121,53 @@ input::placeholder {
     
 }
 
+/*Desktop View*/
 
+@media only screen and (min-width: 1000px) {
+    
+    body {
+        height: 100vh;
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 100%;
+        height: 800px;
+        align-self: center;
+        justify-self: center;
+        overflow-y: hidden;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 788px 610px;
+        grid-template-rows: 158px 670px;
+        grid-template-areas:
+        "header image"
+        "text image";
+        background: url(./images/bg-pattern-desktop.svg) no-repeat top left;
+        background-size: 788px 800px;
+    }
+
+    .header {
+        grid-area: header;
+        background-color: var(--main-color);
+        padding-left: 165px;
+    }
+
+    .main-image {
+        grid-area: image;
+        background: url(images/hero-desktop.jpg) no-repeat;
+        min-height: 100vh;
+        margin: 0px;
+        min-width: 610px;
+        min-height: 800px;
+    }
+
+    .text {
+        grid-area: text;
+        padding-right: 220px;
+        padding-left: 165px;
+        padding-top: 136px;
+    }
+}
