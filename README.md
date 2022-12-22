@@ -13,7 +13,7 @@
 
 ## Overview
 
-This project has been a collaboration between Brandan Wilson and Eileen D'Angelo. We pair programmed it together.
+This project has been a collaboration between Brendan Wilson and Eileen D'Angelo. We pair programmed it together.
 
 ### The challenge
 
