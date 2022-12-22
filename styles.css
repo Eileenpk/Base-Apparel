@@ -137,6 +137,17 @@ input::placeholder {
     font-size: 13px;
 }
 
+.error-text {
+    margin: 0;
+    text-align: left;
+}
+
+.error-icon {
+    position: relative;
+    bottom: 62px;
+    left: 190px;
+}
+
 /*Desktop View*/
 
 @media only screen and (min-width: 1000px) {
@@ -191,6 +202,12 @@ input::placeholder {
 
     input {
         width: 403px;
+    }
+
+    .error-icon {
+        position: relative;
+        bottom: 67px;
+        left: 275px;
     }
 
     /* type */

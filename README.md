@@ -1,6 +1,6 @@
 # Frontend Mentor - Base Apparel coming soon page
 
-![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg) 
+![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
 
 ## Table of contents
 
@@ -12,7 +12,9 @@
 - [Author](#author)
 
 ## Overview
+
 This project has been a collaboration between Brandan Wilson and Eileen D'Angelo. We pair programmed it together.
+
 ### The challenge
 
 Users should be able to:
@@ -27,6 +29,7 @@ Users should be able to:
 
 ![screen shot of full screen webpage]()
 ![screen shot of mobile webpage]()
+
 ### Links
 
 - Solution URL: [GitHub]()
