@@ -8,6 +8,10 @@ img {
     max-width: 100%;
 }
 
+img {
+    max-width: 100%;
+}
+
 :root {
     font-size: 16px;
     --main-color: #fff6f6;
@@ -62,9 +66,11 @@ p {
 
 /* header */
 
+
 .header {
     background-color: var(--third-color);
 }
+
 .header img {
     margin-left: 32px;
     margin-top: 32px;
@@ -93,7 +99,6 @@ p {
 }
 form {
     align-self: center;
-    margin-bottom: 92px;
 }
 
 input {
@@ -102,6 +107,7 @@ input {
     border: 1px solid var(--font-color);
     margin-left: 64px;
     background: var(--main-color);
+    text-indent: 24px;
 }
 
 input::placeholder {
@@ -119,6 +125,27 @@ input::placeholder {
     border: none;
     box-shadow: 0px 15px 20px 0px #C66E6E3F;
     
+}
+
+.error-div {
+    margin-top: 50px;
+    margin-left: 57px;
+    margin-bottom: 92px;
+    position: relative;
+    bottom: 47px;
+    color: #F96464;
+    font-size: 13px;
+}
+
+.error-text {
+    margin: 0;
+    text-align: left;
+}
+
+.error-icon {
+    position: relative;
+    bottom: 62px;
+    left: 190px;
 }
 
 /*Desktop View*/
@@ -145,13 +172,14 @@ input::placeholder {
         grid-template-areas:
         "header image"
         "text image";
-        background: url(./images/bg-pattern-desktop.svg) no-repeat top left;
-        background-size: 788px 800px;
+        background:
+        url(./images/bg-pattern-desktop.svg) no-repeat top left;
+        background-color: linear-gradient(221.42deg, #FFF1F1 2.6%, #FFFFFF 96.36%);
     }
 
     .header {
         grid-area: header;
-        background-color: var(--main-color);
+        background-color: transparent;
         padding-left: 165px;
     }
 
@@ -168,6 +196,34 @@ input::placeholder {
         grid-area: text;
         padding-right: 220px;
         padding-left: 165px;
-        padding-top: 136px;
+        display: flex;
+        align-items: center;
     }
+
+    input {
+        width: 403px;
+    }
+
+    .error-icon {
+        position: relative;
+        bottom: 67px;
+        left: 275px;
+    }
+
+    /* type */
+h1 {
+    font-size: 64px;
+    line-height: 71px;
+    letter-spacing: 17.32px;
+    text-align: left;
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 0;
+    width: 403px;
+}
+
 }
