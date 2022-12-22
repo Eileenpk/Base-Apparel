@@ -47,4 +47,5 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@Eileenpk](https://www.frontendmentor.io/profile/Eileenpk)
+- Frontend Mentor - [@Brendan](https://www.frontendmentor.io/profile/Brendan-A-Wilson) 
 - LinkedIn - [@Eileenpk](www.linkedin.com/in/eileen-dangelo)
