@@ -127,6 +127,11 @@ input::placeholder {
     
 }
 
+.btn:hover,
+.btn:active {
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+}
+
 .error-div {
     margin-top: 50px;
     margin-left: 57px;
