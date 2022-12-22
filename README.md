@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![screen shot of full screen webpage]()
-![screen shot of mobile webpage]()
+![screen shot of full screen webpage](https://github.com/Eileenpk/Base-Apparel/blob/main/images/full-screen.png)
+![screen shot of mobile webpage](https://github.com/Eileenpk/Base-Apparel/blob/main/images/mobile.png)
 
 ### Links
 
-- Solution URL: [GitHub]()
-- Live Site URL: [live site]()
+- Solution URL: [GitHub](https://github.com/Eileenpk/Base-Apparel)
+- Live Site URL: [live site](https://eileenpk.github.io/Base-Apparel/)
 
 ### Built with
 
@@ -42,6 +42,7 @@ Users should be able to:
 - Flexbox
 - Grid
 - Mobile-first workflow
+- JavaScript
 
 ## Author
 
